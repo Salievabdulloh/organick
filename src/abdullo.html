@@ -11,8 +11,400 @@ npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
     <link rel="stylesheet" href="output.css">
 </head>
 
-<body>
+<body class="text-white">
+    <header class="flex md:px-[200px] justify-between bg-[hsl(0,0%,13%)] items-center py-[12px] md:py-[22px] px-[20px]">
+        <img src="aba-img/logo.svg">
+        <div class="md:flex hidden gap-5">
+            <p class="text-[18px] font-semibold">+7 (888) 888 88 88</p>
+            <p class="text-[#DA4533]">Получить консультацию</p>
+        </div>
+        <div class="md:flex hidden items-center gap-5">
+            <p class="font-semibold">Услуги</p>
+            <p class="font-semibold">Кейсы</p>
+            <p class="font-semibold">FAQ</p>
+        </div>
+        <img src="aba-img/Burger768.png" class="md:hidden block">
+    </header>
 
+    <main class="">
+        <div class="bg-[#1b1b1b] md:px-[200px] pt-[50px] px-5">
+            <div class="md:flex block items-center justify-between">
+                <div class="flex items-center flex-col">
+                    <p class="text-[#8A8A8A] md:text-start text-center mb-2 font-semibold">ВАШ IP ПАРТНЕР</p>
+                    <p class="text-[44px] md:text-start text-center md:text-[55px] leading-[135%] mb-4">Интеллектуальная
+                        собственность</p>
+                    <p class=",d:text-[18px] text-[16px] md:text-start text-center leading-[165%] mb-8">Индивидуальные
+                        правовые
+                        решения
+                        для защиты
+                        и охраны ваших
+                        нематериальных активов в России и за рубежом</p>
+                    <div class="md:flex-row flex flex-col gap-[36px]">
+                        <button class="bg-[#DA4533] font-semibold rounded-full p-[10px]">Получить индивидуальную <br>
+                            консультацию</button>
+                        <button class="bg-transparent text-[#DA4533] border border-[#DA4533] rounded-full px-5 py-6">
+                            Все услуги
+                        </button>
+
+                    </div>
+                </div>
+                <img src="aba-img/1-curve.png" class="md:block hidden">
+            </div>
+            <div class="md:pb-[100px] pb-20 md:flex block mt-[50px] justify-between">
+                <img src="aba-img/2-curve.png" class="md:block mr-8 h-[430px] hidden">
+                <div class="flex items-center flex-col">
+                    <div class="mb-20">
+                        <p class="text-[38px]">Многолетний опыт</p>
+                        <p class="font-medium mb-10 text-[#8A8A8A] mt-4">Наша компания была создана в 2019 году
+                            специалистами, имеющими
+                            опыт
+                            работы
+                            в сфере
+                            интеллектуальной собственности более 20 лет</p>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                            <div class="bg-[hsl(0,0%,15%)] rounded-lg md:block flex gap-5  p-5 items-center md:pr-16">
+                                <p class="text-[36px] font-medium">>300</p>
+                                <p class="text-[#8A8A8A] w-[250px]">Представления интересов в спорах по IP
+                                    правам в год</p>
+                            </div>
+                            <div class="bg-[hsl(0,0%,15%)] rounded-lg md:block flex gap-5  p-5 items-center md:pr-16">
+                                <p class="text-[36px] font-medium">>2500</p>
+                                <p class="text-[#8A8A8A] w-[250px]">Оказаний юридической помощи компаниям в год</p>
+                            </div>
+                            <div class="bg-[hsl(0,0%,15%)] rounded-lg md:block flex gap-5  p-5 items-center md:pr-16">
+                                <p class="text-[36px] font-medium">1150</p>
+                                <p class="text-[#8A8A8A] w-[250px]">Завершённых дел по регистрации товарных знаков</p>
+                            </div>
+                            <div class="bg-[hsl(0,0%,15%)] rounded-lg md:block flex gap-5  p-5 items-center md:pr-16">
+                                <p class="text-[36px] font-medium">61</p>
+                                <p class="text-[#8A8A8A] w-[250px]">Совокупный опытэкспертов</p>
+                            </div>
+                            <div class="bg-[hsl(0,0%,15%)] rounded-lg md:block flex gap-5  p-5 items-center md:pr-16">
+                                <p class="text-[36px] font-medium">99%</p>
+                                <p class="text-[#8A8A8A] w-[250px]">Успех полученияпатентов</p>
+                            </div>
+                            <div class="bg-[hsl(0,0%,15%)] rounded-lg md:block flex gap-5  p-5 items-center md:pr-16">
+                                <p class="text-[36px] font-medium">98%</p>
+                                <p class="text-[#8A8A8A] w-[250px]">Успех регистрациитоварных знаков</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <p class="text-[38px]">Подтвержденный практикой</p>
+                        <p class="font-medium mb-10 text-[#8A8A8A] mt-4">Мы и наши клиенты гордимся опытом, который
+                            подтверждается нашими результатами от закрепления прав заявителей до успешной защиты
+                            интересов
+                        </p>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                            <div class="bg-[hsl(0,0%,15%)] rounded-lg flex justify-center pt-2.5 px-10">
+                                <img src="aba-img/depot.png">
+                            </div>
+                            <div class="bg-[hsl(0,0%,15%)] rounded-lg flex justify-center pt-2.5 px-10">
+                                <img src="aba-img/grup.png">
+                            </div>
+                            <div class="bg-[hsl(0,0%,15%)] rounded-lg flex justify-center pt-2.5 px-10">
+                                <img src="aba-img/deneb.png">
+                            </div>
+                            <div class="bg-[hsl(0,0%,15%)] rounded-lg flex justify-center pt-2.5 px-10">
+                                <img src="aba-img/mone.png">
+                            </div>
+                            <div class="bg-[hsl(0,0%,15%)] rounded-lg flex justify-center pt-2.5 px-10">
+                                <img src="aba-img/betcity.png">
+                            </div>
+                            <div class="bg-[hsl(0,0%,15%)] rounded-lg flex justify-center pt-2.5 px-10">
+                                <img src="aba-img/fish.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-[url(aba-img/backgroud_grey.png)] text-black w-full h-[777px] md:pl-[200px] px-5 py-20">
+            <div class="flex justify-between items-center">
+                <div class="">
+                    <p class="text-[28px] mb-[19px] ">Решения для вашего бизнеса</p>
+                    <p class="text-[#8A8A8A] text-[18px] mb-10">У нас есть все необходимые ресурсы для решения любых
+                        ваших
+                        потребностей в сфере интеллектуальной собственности</p>
+                </div>
+                <div class="hidden md:block">
+                    <button class="border-[#DA4533] rounded-full  bg-transparent text-[#DA4533] w-[92px] border-2">Все
+                        услуги</button>
+                </div>
+            </div>
+            <div class="flex gap-5 justify-center mb-[30px]">
+                <div
+                    class="bg-[#1B1B1B] rounded-lg flex pt-[60px] pb-5 px-[15px] md:px-[25px] items-center flex-col text-[#8A8A8A]">
+                    <img src="aba-img/1-obj.png" class="w-[114px] h-[120px] md:w-[167px] md:h-[176px]">
+                    <p class="text-[#8A8A8A] w-[170px] md:w-[230px] mt-[31px] md:mt-[60px] text-[14px] md:text-[18px]">
+                        Регистрация
+                        товарного
+                        знака в
+                        Роспатенте
+                    </p>
+                </div>
+                <div
+                    class="bg-[#1B1B1B] rounded-lg hidden md:flex pt-[60px] pb-5 px-[15px] md:px-[25px] items-center flex-col text-[#8A8A8A]">
+                    <img src="aba-img/2-obj.png" class="w-[114px] h-[120px] md:w-[167px] md:h-[176px]">
+                    <p class="text-[#8A8A8A] w-[170px] md:w-[230px] mt-[31px] md:mt-[60px] text-[14px] md:text-[18px]">
+                        Получение
+                        патента
+                        на промышленный образец</p>
+                </div>
+                <div
+                    class="bg-[#1B1B1B] rounded-lg hidden md:flex pt-[60px] pb-5 px-[15px] md:px-[25px] items-center flex-col text-[#8A8A8A]">
+                    <img src="aba-img/3-obj.png" class="w-[114px] h-[120px] md:w-[167px] md:h-[176px]">
+                    <p class="text-[#8A8A8A] w-[170px] md:w-[230px] mt-[31px] md:mt-[60px] text-[14px] md:text-[18px]">
+                        Регистрация
+                        товарного
+                        <br> знака в
+                        Роспатенте
+                    </p>
+                </div>
+                <div
+                    class="bg-[#1B1B1B] rounded-lg flex pt-[60px] pb-5 px-[15px] md:px-[25px] items-center flex-col text-[#8A8A8A]">
+                    <img src="aba-img/4-obj.png" class="w-[114px] h-[120px] md:w-[167px] md:h-[176px]">
+                    <p class="text-[#8A8A8A] w-[170px] md:w-[230px] mt-[31px] md:mt-[60px] text-[14px] md:text-[18px]">
+                        Регистрация
+                        товарного
+                        <br> знака в
+                        Роспатенте
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div
+            class="bg-[url(aba-img/backgroud_grey.png)] hidden md:block bg-[#DA4533] bg-blend-multiply w-full  md:pl-[200px] px-5 py-[100px]">
+
+            <p class="text-[38px] mb-4">Не знаете, что вам нужно? </p>
+            <p class="mb-10">Пройдите квиз, чтобы выбрать оптимальное решение для Вашей
+                задачи</p>
+            <div class="bg-[#1B1B1B] text-white rounded-[10px] p-10">
+                <p class="text-[24px] mb-[20px]">С какой целью вы обращаетесь?</p>
+                <div class="grid grid-cols-2 gap-[15px]">
+                    <div class="bg-[#DA4533]">
+                        <p class="font-medium py-[18px] px-5">Регистрацию полезной модели</p>
+                    </div>
+                    <div class="bg-[hsl(0,0%,15%)]">
+                        <p class="font-medium py-[18px] px-5">Регистрацию промышленного образца</p>
+                    </div>
+                    <div class="bg-[hsl(0,0%,15%)]">
+                        <p class="font-medium py-[18px] px-5">Регистрацию прав на использование полезной модели,
+                            промобразца, изобретенния</p>
+                    </div>
+                    <div class="bg-[hsl(0,0%,15%)]">
+                        <p class="font-medium py-[18px] px-5">Подготовка заявки на выдачу патента</p>
+                    </div>
+                    <div class="bg-[hsl(0,0%,15%)]">
+                        <p class="font-medium py-[18px] px-5">Регистрацию изобретения</p>
+                    </div>
+                    <div class="bg-[hsl(0,0%,15%)]">
+                        <p class="font-medium py-[18px] px-5">Подготовка заявки на передачу прав патента</p>
+                    </div>
+                </div>
+                <div class="flex justify-between mt-10">
+                    <button class="text-[#DA4533] rounded-full border-[#DA4533] border-2 py-2 px-3">Назад</button>
+                    <button class="text-[#DA4533] rounded-full border-[#DA4533] border-2 py-2 px-3">Назад</button>
+                </div>
+            </div>
+            <p class="text-[24px] mb-5 mt-10 font-medium">Бонусы после прохождения</p>
+            <div class="flex gap-5">
+                <div class="flex gap-[15px] rounded-[10px] p-[15px] items-center bg-[#1B1B1B]">
+                    <img src="aba-img/1-romb.png" alt="">
+                    <p class="">Название бонуса в одну <br> или две строки</p>
+                </div>
+                <div class="flex gap-[15px] rounded-[10px] p-[15px] items-center bg-[#1B1B1B]">
+                    <img src="aba-img/2-romb.png" alt="">
+                    <p class="">Название бонуса в одну <br> или две строки</p>
+                </div>
+            </div>
+        </div>
+        <div class=" text-white bg-[#1b1b1b] w-full h-[777px] md:pl-[200px] px-5 pb-[200px] py-[120px]">
+            <div class="flex justify-between items-center">
+                <div class="">
+                    <p class="text-[28px] mb-[19px] ">Реализованные кейсы</p>
+                    <p class="text-[#8A8A8A] text-[18px] mb-10">Наши реальные истории о том, как мы помогали своим
+                        клиентам регистрировать товарные знаки и оформлять права на объекты интеллектуальной
+                        собственности</p>
+                </div>
+                <div class="hidden md:block">
+                    <button class="border-[#DA4533] rounded-full  bg-transparent text-[#DA4533] w-[92px] border-2">Все
+                        услуги</button>
+                </div>
+            </div>
+            <div class="flex gap-5 justify-center mb-[30px]">
+                <div class="rounded-[8px] flex">
+                    <div class="py-[120px] px-10 bg-[hsl(0,0%,25%)]">
+                        <img src="aba-img/cirkle.png">
+                    </div>
+                    <div class="pb-[50px] pt-20 flex items-center flex-col justify-center px-[20px] bg-[hsl(0,0%,13%)]">
+                        <p class="font-medium">CIRKLE — производитель косметической продукции</p>
+                        <p class="text-[14px]">Как в результате защиты мы зарегистрировали бренд российской косметики
+                            при наличии оснований для отказа</p>
+                    </div>
+                </div>
+                <div class="rounded-[8px] hidden md:flex">
+                    <div class="py-[120px] px-10 bg-[hsl(0,0%,25%)]">
+                        <img src="aba-img/camera.png">
+                    </div>
+                    <div class="pb-[50px] pt-20 flex items-center flex-col justify-center px-[20px] bg-[hsl(0,0%,13%)]">
+                        <p class="font-medium">Camera IQ — производитель систем машинного зрения</p>
+                        <p class="text-[14px]">Защита прав после ребрендинга. Как провести успешную регистрацию</p>
+                    </div>
+                </div>
+                <div class="rounded-[8px] hidden md:flex">
+                    <div class="py-[120px] px-10 bg-[hsl(0,0%,25%)]">
+                        <img src="aba-img/hands.png">
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <img src="aba-img/buttons.png" alt="">
+            </div>
+        </div>
+        <div class="text-black w-full h-[777px] md:pl-[200px] px-5 py-[120px]">
+            <p class="text-[28px] mb-[19px] ">Реализованные кейсы</p>
+            <p class="text-[#8A8A8A] text-[18px] mb-10">Наши реальные истории о том, как мы помогали своим
+                клиентам регистрировать товарные знаки и оформлять права на объекты интеллектуальной
+                собственности</p>
+            <div class="flex gap-5 justify-center mb-[30px]">
+                <div class="rounded-[8px]">
+                    <img src="aba-img/1.png" class="rounded-lg">
+                    <div class="">
+                        <p class="text-[18px] font-medium mt-[10px] mb-[5px]">Раймм Лидия <br> Вячеславовна</p>
+                        <p class="text-[#5C5C5C] text-[14px]">Генеральный директор</p>
+                    </div>
+                </div>
+                <div class="hidden md:block rounded-[8px]">
+                    <img src="aba-img/3.png" class="rounded-lg">
+                    <div class="">
+                        <p class="text-[18px] font-medium mt-[10px] mb-[5px]">Осоргина Екатерина <br> Александровна</p>
+                        <p class="text-[#5C5C5C] text-[14px]">Патентный поверенный РФ</p>
+                    </div>
+                </div>
+                <div class="rounded-[8px]">
+                    <img src="aba-img/4.png" class="rounded-lg">
+                    <div class="">
+                        <p class="text-[18px] font-medium mt-[10px] mb-[5px]">Рачеева Юлия <br> Геннадьевна</p>
+                        <p class="text-[#5C5C5C] text-[14px]">Патентный поверенный РФ</p>
+                    </div>
+                </div>
+                <div class="hidden md:block rounded-[8px]">
+                    <img src="aba-img/5.png" class="rounded-lg">
+                    <div class="">
+                        <p class="text-[18px] font-medium mt-[10px] mb-[5px]">Пахоменко Алина <br> Аликовна</p>
+                        <p class="text-[#5C5C5C] text-[14px]">Адвокат</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center my-[30px]">
+                <img src="aba-img/buttons.png">
+            </div>
+        </div>
+        <div class="text-black w-full md:pl-[200px] px-5">
+            <div class="flex items-center md:gap-[600px]">
+                <p class="font-medium text-[28px] mb-[19px] mr-10">Мы на форумах</p>
+                <div class="flex gap-[50px]">
+                    <p class="font-medium mb-[19px] text-[#5C5C5C]">Прошедшие</p>
+                    <p class="font-medium mb-[19px] text-[#DA4533]">Будущие</p>
+                </div>
+            </div>
+            <div class="">
+                <div class="md:flex gap-10 items-center">
+                    <div class="flex gap-[15px] items-center">
+                        <img src="aba-img/round-1.png">
+                        <div class="">
+                            <p class="font-medium">Раймм Лидия Вячеславовна</p>
+                            <p class="text-[14px] text-[#5C5C5C]">Генеральный директор IPhub</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-10 items-center">
+                        <div class="">
+                            <p class="font-medium text-[18px]">Менторская гостинная</p>
+                            <p class="md:w-[495px] text-[#5C5C5C]">Индивидуальная 30-ти минутная сессия с разбором
+                                вашего
+                                кейса.</p>
+                        </div>
+                        <div class="flex-col flex items-center">
+                            <p class="text-center text-[18px] font-medium">9-10 ноября</p>
+                            <p class="">18:00</p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="my-5 md:w-[1000px]">
+                <div class="md:flex h-[466px] gap-10 items-center">
+                    <div class="flex gap-[15px] items-center">
+                        <img src="aba-img/roudn-2.png">
+                        <div class="">
+                            <p class="font-medium">Золотов Геннадий Борисович</p>
+                            <p class="text-[14px] text-[#5C5C5C]">Руководитель отдела патентно-
+                                <br>юридического
+                                делопроизводства
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex gap-10 items-center">
+                        <div class="">
+                            <p class="font-medium text-[18px]">WIPO SUMMER SCHOOL — 2021 RUSSIA</p>
+                            <p class="md:w-[495px] text-[#5C5C5C]">Летняя школа Всемирной организации интеллектуальной
+                                собственности</p>
+                        </div>
+                        <div class="flex-col flex items-center">
+                            <p class="text-center text-[18px] font-medium">28 июня - 9 июля</p>
+                            <p class="">15:30</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-[rgb(27,27,27)] pt-[60px] pb-[30px] px-5 md:px-[200px]  md:pt-[100px]  md:pb-[50px]">
+        <div class="block md:flex justify-between">
+            <div class="block md:flex  gap-4">
+                <img src="aba-img/logo.svg" class="w-[200px] h-[47px]">
+                <p class="text-[14px] mt-[14px] mb-[22px] text-[#8A8A8A]">Общество с ограниченной
+                    ответственностью «Центр интеллектуальной собственности и инноваций „АйПиХаб“»</p>
+            </div>
+            <div class="flex md:block gap-5">
+                <p class="text-[14px]">123317, г. Москва, Пресненская наб., д.
+                    8, стр. 1, эт. 3, п. 1, оф. 10</p>
+                <p class="text-[14px]">ИНН: 7703472433 &nbsp;&nbsp;&nbsp; КПП: 770301001</p>
+            </div>
+        </div>
+        <hr class="my-10">
+
+        <div class="justify-between md:flex grid grid-cols-2 gap-x-5 gap-y-[30px]">
+            <div class="">
+                <p class="text-[18px] text-[#5C5C5C] font-medium mb-[20px]">Навигация по сайту:</p>
+                <p class="text-[16px] font-medium mb-[20px]">Услуги</p>
+                <p class="text-[16px] font-medium mb-[20px]">Кейсы</p>
+                <p class="text-[16px] font-medium mb-[20px]">FAQ</p>
+            </div>
+            <div class="">
+                <p class="text-[18px] text-[#5C5C5C] font-medium mb-[20px]">Наши контакты:</p>
+                <p class="text-[16px] font-medium mb-[20px]">example@iphub.com</p>
+                <p class="text-[16px] font-medium mb-[20px]">+7 (888) 888 88 88</p>
+            </div>
+            <div class="">
+                <p class="text-[18px] text-[#5C5C5C] font-medium mb-[20px]">Мы в соцсетях:</p>
+                <div class="md:block flex gap-10">
+                    <p class="text-[16px] font-medium mb-[20px]">Facebook</p>
+                    <p class="text-[16px] font-medium mb-[20px]">Instagram</p>
+                </div>
+            </div>
+            <div class="hidden md:block">
+                <p class="text-[18px] text-[#5C5C5C] font-medium mb-[20px]">Как добраться:</p>
+                <p class="text-[16px] font-medium mb-[20px]">Схема проезда</p>
+            </div>
+        </div>
+
+        <div class="flex flex-col mt-10 md:justify-between md:flex-row-reverse">
+            <p class="text-[14px] mb-2.5">Публичная оферта</p>
+            <p class="text-[14px] mb-2.5">Пользовательское соглашение</p>
+            <p class="text-[14px] text-[#8A8A8A] mb-2.5">© 2021 IPhub. Все права защищены.</p>
+        </div>
+    </footer>
 </body>
 
 </html>
